@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Test</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body class="p-8 bg-gray-100">
+
+    <div class="w-1/2 h-40 bg-blue-500 text-red-500 flex justify-center items-center">
+        <h1 class="text-4xl font-bold">Hello World</h1>
+    </div>
+
+    <img src="https://cdn.pixabay.com/photo/2024/02/27/16/17/cat-8600417_1280.jpg" alt="floating to the right" class="float-right w-32 h-32 rounded-full border-4 border-gray-500 mt-4">
+    <p class="clear-both">this text clears the float and moves below the image</p>
+    <div class="relative top-4 left-4 bg-green-500 p-10 z-40"></div>
+    <div class="absolute top-2 left-2 right-2 bg-red-500 p-3 z-30"></div>
+    <div class="sticky top-4 bg-red-500 p-4 z-30"></div>
+    <div class="static bg-blue-500 p-4"></div>
+    <br>
+    <div class=""> 
+        <img src="https://cdn.pixabay.com/photo/2025/02/09/17/58/cycling-9394894_1280.jpg" alt="floating to the right" class="float-right w-40 h-50">
+    </div>
+    <br>
+
+    <div class="flex justify-between items-center"></div>
+    <div class="flex justify-between">
+        <div><img src="https://cdn.pixabay.com/photo/2025/01/09/16/33/playing-cards-9322164_1280.jpg" alt="" class="w-48 h-48" ></div>
+        <div><img src="https://cdn.pixabay.com/photo/2025/01/09/16/33/playing-cards-9322164_1280.jpg" alt="" class="w-48 h-48"></div>
+        <div><img src="https://cdn.pixabay.com/photo/2025/01/09/16/33/playing-cards-9322164_1280.jpg" alt="" class="w-48 h-48"></div>
+    </div>
+    <br>
+    <div class="flex justify-center">
+        <div><img src="https://cdn.pixabay.com/photo/2025/01/09/16/33/playing-cards-9322164_1280.jpg" alt="" class="w-48 h-48"></div>
+        <div><img src="https://cdn.pixabay.com/photo/2025/01/09/16/33/playing-cards-9322164_1280.jpg" alt="" class="w-48 h-48"></div>
+        <div><img src="https://cdn.pixabay.com/photo/2025/01/09/16/33/playing-cards-9322164_1280.jpg" alt="" class="w-48 h-48"></div>
+    </div>
+        
+</body>
+</html>
